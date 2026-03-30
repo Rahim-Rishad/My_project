@@ -1,0 +1,290 @@
+.poppins {
+  font-family: "Poppins", sans-serif;
+}
+.inter{
+    font-family: "Inter", sans-serif;
+}
+.btn{
+    border: 1px solid ;
+    padding: 14px 45px;
+    border-radius: 6px;
+    color: white;
+    font-size: 16px;
+    
+}
+body{
+    max-width: 1130px;
+    margin: 0 auto;
+}
+header{
+    margin-bottom: 60px;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    margin: 20px 0;
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:64px;
+    background-color: rgba(254, 234, 233, 1);
+    padding:40px 50px ;
+    border-radius: 12px;
+}
+.hero-img> img{
+    max-width: 350px;
+}
+.hero-des h1{
+    font-size: 56px;
+    font-weight: bold;
+}
+.hero-des p{
+    color: #4E4E4E;
+    line-height: 26px;
+}
+.hero-des h3{
+    font-size: 41px;
+    font-weight: medium;
+    margin: 10px 0;
+    color: #FF136F;
+}
+.hero-btn{
+    background:linear-gradient(to bottom, #FF589B, #FF136F); ;
+}
+.categories{
+    margin-bottom: 60px;
+}
+.section-title{
+    font-size: 36px;
+    font-weight:700;
+}
+
+.card1{
+    background-color:#FF9C35 ;
+}
+.card2{
+    background-color:#FF136F ;
+}
+.card3{
+    background-color:#3F07F8;
+
+}
+.card3 > img, .card1 > img,.card2 > img{
+    max-width: 50%;
+}
+.categories-cards{
+    display: flex;
+    gap: 26px;
+}
+.categories-cards > div{
+flex:1;
+color: #FFFFFF;
+font-size:36px ;
+display: flex;
+justify-content: space-between;
+align-items: center;
+gap:24px;
+padding: 24px 48px ;
+border-radius:12px;
+}
+.arrow{
+    color: white;
+}
+.shoes{
+    margin-bottom:60px ;
+}
+.shoes-cards{
+    display: flex;
+    gap: 24px;
+}
+.shoes-cards > div{
+    flex: 1;
+    text-align:center;
+    border: 2px solid #929292;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0px 6px 20px rgba(146, 146, 146, 0.2);
+}
+
+.shoes-cards p{
+    color: #4E4E4E;
+}
+.shoes-cards h3{
+    font-size: 24px;
+    
+}
+.shoes-card1 >img,.shoes-card2>img,.shoes-card3>img{
+        max-width:100%
+    } 
+.shoes-card-title1{
+ text-align: left;
+font-size:24px ;
+font-weight: 800;
+}
+.shoes-card-title{
+    font-size:24px ;
+    font-weight: 800;
+}
+.shoes-btn{
+    background-color: #000000;
+}
+.bags{
+     margin-bottom:60px ;
+}
+footer{
+    background-color: #FFF2F1;
+    padding: 146px 0;
+
+}
+.footer{
+    text-align: center;
+    padding: 60px 20px;
+} 
+.footer > h1{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+.footer > p{
+    color: #4E4E4E;
+}
+
+.footer-btn {
+  max-width: 683px;
+  min-height: 73px;
+  margin: 0 auto;
+  display: flex;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.footer-btn input {
+  flex: 1;
+  border: none;
+  padding: 0 20px;
+  font-size: 16px;
+  background: #f1f1f1;
+  outline: none;
+}
+
+.footer-btn button {
+  width: 150px;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  background: linear-gradient(45deg, #ff3c7f, #ff6a3d);
+}
+/* responsive */
+/* mobile screen */
+@media screen and (max-width:576px){
+    .logo{
+        margin: 10px;
+    }
+    .hero{
+        flex-direction: column;
+        margin: 12px;
+        padding:20px;
+    
+    }
+    .hero-des h1{
+        font-size: 36px;
+    }
+    .categories-cards{
+        flex-direction: column;
+        margin: 24px;
+    }
+    .section-title{
+        text-align: center;
+    }
+    .shoes-cards{
+        flex-direction: column;
+        /* margin:10px; */
+
+    }
+    /* .shoes-card1 >img,.shoes-card2>img,.shoes-card3>img{
+        max-width: 250px;
+    
+    }  */
+    .shoes-card > div{
+        padding: 0px;
+    }
+    .shoes-card-title1{
+        text-align: center;
+        font-weight: 600;
+        font-size:18px ;
+    }
+    .shoes-card-title{
+        font-weight: 600;
+        font-size : 18px;
+    }
+    footer{
+        padding:20px;
+        margin-bottom: 10px;
+    }
+    .footer-btn input{
+    margin-left: 20px;
+    
+    }
+    .footer-btn {
+        flex-direction: column;
+        align-items:center;
+        gap: 16px;
+    }
+    .footer> h1{
+        font-size: 22px;
+        
+    }
+    .footer> p{
+        font-size: 12px;
+    }
+   .footer-btn input,
+  .footer-btn button {
+    width: 100%;
+    padding: 10px;
+  }
+    
+}
+/* Tablet */
+@media (max-width: 992px) {
+    .hero{
+        flex-direction: column;
+        margin: 12px;
+        padding:20px;
+    
+    }
+    .hero-des h1{
+        font-size: 42px;
+    }
+    .categories-cards{
+        flex-direction: column;
+        margin: 32px;
+        padding: 20px;
+    }
+    .categories-cards > div{
+        padding: 20px;
+    }
+    .section-title{
+        text-align: center;
+    }
+    .shoes-cards{
+        flex-direction: column;
+        margin: 60px;
+
+    }
+    
+    .shoes-card-title1{
+        text-align: center; 
+    }
+    footer{
+        padding:20px;
+        margin-bottom: 10px;
+    }
+    .footer-btn input{
+        padding: 5px;
+    }
+    
+}
